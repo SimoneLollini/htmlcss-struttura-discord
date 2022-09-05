@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region utility */
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+/* #region griglia */
+.col-1 {
+    width: calc((100% / 12) * 1);
+  }
+  
+  .col-3 {
+    width: calc((100% / 12) * 3);
+  }
+  
+  .col-4 {
+    width: calc((100% / 12) * 4);
+  }
+  
+  .col-9 {
+    width: calc((100% / 12) * 9);
+  }
+  
+  .col-6 {
+    width: calc((100% / 12) * 6);}
+/* #endregion griglia */
+/* #endregion utility */
+
+/* #region debug */
+header.debug{
+    background-color: aqua;
+    
+    }
+
+.flex{
+    display: flex;
+}
+
+/* #endregion debug */
+nav>a{
+    text-decoration: none;
+}
+
+header>.flex{
+    justify-content: space-around;
+}
