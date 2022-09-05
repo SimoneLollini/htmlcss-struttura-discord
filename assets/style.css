@@ -50,4 +50,7 @@ nav>a{
 
 header>.flex{
     justify-content: space-around;
+    align-items: center;
+    
 }
+
