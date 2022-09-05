@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>htmlcss-struttura-discord</title>
 </head>
 
-<body>
+<body class="relative font">
     <header class="debug">
         <div class="row flex debug">
 
@@ -30,7 +33,7 @@
             </div>
 
             <div class="col-4 flex align_center">
-                <button class="accesso flex">accesso</button>
+                <button id="accesso" class="flex">Accedi</button>
             </div>
 
         </div>
@@ -38,7 +41,7 @@
     </header>
 
     <main class="debug">
-        <div class="row flex debug">
+        <div class="row flex dowload-area debug">
             <div class="col-4 debug"></div>
             <div class="col-4">
                 <h2>Il tuo posto per parlare</h2>
@@ -47,10 +50,16 @@
 
 
             <div class="col-3"></div>
-            <div class="col-6">
+            <div class="col-6 text-centered">
+
                 <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o
-                    semplicemente di un piccolo gruppo di amici che vuole passare il tempo insieme, Discord rende più
-                    facile chiaccherare ogni giorno e ritrovarsi più spesso.</p>
+                    semplicemente di un piccolo gruppo di amici che vuole passare il tempo insieme, Discord rende
+                    più
+                    facile chiaccherare ogni giorno e ritrovarsi più spesso.
+                </p>
+                <button class="dowload">Scarica per Mac</button>
+                <button class="browser">Apri Discord nel tuo browser</button>
+
             </div>
             <div class="col-3"></div>
 

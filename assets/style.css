@@ -35,6 +35,10 @@
     margin: auto;
 }
 
+.font {
+    font-family: 'Noto Sans Buhid', sans-serif;
+}
+
 .flex {
     display: flex;
 }
@@ -48,17 +52,22 @@
     align-content: space-between;
 }
 
+.position-relative {
+    position: relative;
+}
 
 /* #endregion utility */
 
 /* #region debug */
 header.debug {
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.245);
 
 }
 
 main.debug {
     background-color: rgba(255, 0, 217, 0.37);
+    top: 0;
+    padding-top: 2rem;
 }
 
 /* #endregion debug */
@@ -71,12 +80,40 @@ a {
     flex-wrap: wrap;
 }
 
-header,
-button {
-    font-size: 0.65rem;
+header {
+    font-size: 0.50rem;
+    color: white;
 }
 
-p,
-h2 {
+button {
+    background-color: white;
+    border: 0;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+
+.text-centered {
     text-align: center;
+}
+
+.dowload-area>.col-6>p {
+    font-size: 0.63rem;
+    padding-bottom: 0.6rem;
+}
+
+.dowload-area {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+#accesso {
+    background-color: white;
+    color: black;
+    font-size: 0.5rem;
+}
+
+.dowload,
+.browser {
+    font-size: 0.70rem;
 }
