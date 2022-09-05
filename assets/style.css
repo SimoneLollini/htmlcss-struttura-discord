@@ -78,18 +78,25 @@ main>.dowload-area.debug {
     padding-top: 2rem;
 }
 
-.img-text.debug>.col-7 {
+.img-text.debug>.col-7,
+.text-img.debug>.col-7
+ {
     background-color: #6ca46343;
     border: 1px solid;
 
 }
+
 
 /* #endregion debug */
 a {
     text-decoration: none;
 }
 
-.row.dowload-area {
+.row {
+    margin-top: 2.5rem;
+}
+
+.row-0p.dowload-area {
     padding-top: 0.75rem;
     flex-wrap: wrap;
     padding-top: 3rem;
@@ -124,11 +131,11 @@ button {
     font-size: 0.5rem;
 }
 
-p{
+p {
     font-size: 0.80rem;
 }
 
-.img-text>h2{
+.img-text>h2 {
     font-size: 1.7rem;
     padding-bottom: 1rem;
 }
