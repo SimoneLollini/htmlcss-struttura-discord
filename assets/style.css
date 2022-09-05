@@ -6,31 +6,36 @@
 
 /* #region utility */
 
-.container {
-    width: 65%;
-    margin: auto;
-}
 
 /* #region griglia */
 .col-1 {
     width: calc((100% / 12) * 1);
-  }
-  
-  .col-3 {
+}
+
+.col-3 {
     width: calc((100% / 12) * 3);
-  }
-  
-  .col-4 {
+}
+
+.col-4 {
     width: calc((100% / 12) * 4);
-  }
-  
-  .col-9 {
+}
+
+.col-9 {
     width: calc((100% / 12) * 9);
-  }
-  
-  .col-6 {
+}
+
+.col-6 {
     width: calc((100% / 12) * 6);}
-/* #endregion griglia */
+    /* #endregion griglia */
+    .container {
+        width: 65%;
+        margin: auto;
+    }
+.align_center{
+    
+    justify-content: space-around;
+    align-items: center;
+}
 /* #endregion utility */
 
 /* #region debug */
@@ -48,9 +53,12 @@ nav>a{
     text-decoration: none;
 }
 
-header>.flex{
-    justify-content: space-around;
-    align-items: center;
-    
+.row {
+    padding-top: 0.75rem;
 }
+
+header,button{
+    font-size: 0.75rem;
+}
+
 
